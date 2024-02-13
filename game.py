@@ -8,7 +8,8 @@ def main() -> None:
 
 def play(points: int) -> None:
 
-    difficulty: int = int(input('Enter the level of difficulty [1, 2, 3 or 4] to play'))
+    difficulty: int = int(input('Enter the level of difficulty [1, 2, 3 or 4] to play: '))
+
 
     calc: Calc = Calc(difficulty)
 
@@ -19,9 +20,9 @@ def play(points: int) -> None:
 
     if calc.check_result(result):
         points += 1
-        print(f'Correct! You got {points} points')
+        print(f'Correct! You got {points} points.')
 
-    continue_game: int = int(input('Continue in the game? [1 - Yes, 0 - No]'))
+    continue_game: int = int(input('Continue in the game? [1 - Yes, 0 - No]: '))
 
     if continue_game:
         play(points)
