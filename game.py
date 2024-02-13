@@ -7,6 +7,7 @@ def main() -> None:
 
 
 def play(points: int) -> None:
+
     difficulty: int = int(input('Enter the level of difficulty [1, 2, 3 or 4] to play'))
 
     calc: Calc = Calc(difficulty)
