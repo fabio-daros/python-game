@@ -1,2 +1,2 @@
 # python-game
-Application where, when launched, it asks the user to choose the level of difficulty of the game and then generates and presents, randomly, a calculation so that we can report the result.
+Simple application, yet involving advanced Python programming. Upon launch, it prompts the user to select the game's difficulty level, then generates and presents a random calculation, asking the user to report the result.
